@@ -31,16 +31,16 @@ if ( sizeof($request_array['events']) > 0 )
 		}
 		else
 		{
-			$reply_message = 'ระบบได้รับข้อความ ('.$text.') ของคุณแล้ว';
+			$reply_message = 'ระบบได้รับข้อความ ('.$text.') ของคุณแล้ววว';
     		}
    
    }
    else
-    $reply_message = 'ระบบได้รับ '.ucfirst($event['message']['type']).' ของคุณแล้ว';
+    $reply_message = 'ระบบได้รับ '.ucfirst($event['message']['type']).' ของคุณแล้ววว';
   
   }
   else
-   $reply_message = 'ระบบได้รับ Event '.ucfirst($event['type']).' ของคุณแล้ว';
+   $reply_message = 'ระบบได้รับ Event '.ucfirst($event['type']).' ของคุณแล้ววว';
  
   if( strlen($reply_message) > 0 )
   {
